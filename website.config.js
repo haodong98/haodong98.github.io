@@ -14,22 +14,23 @@ export const personalInfo = {
 };
 
 export const websiteInfo = {
-  // title: personalInfo.name,
-  // description: 'HCI researcher',
+  title: personalInfo.name,
+  description: 'System researcher homepage',
   // teaserImage: "/teaser.jpg",
 };
 
 export const navigations = [
+  // { name: 'Projects', route: '/projects' },
   // { name: 'Publications', route: '/publications' },
-  // { name: "News", route: "/news" },
-  // { name: 'About', route: '/about' },
+  // { name: 'Life', route: '/life' },
+  // { name: 'CV', route: '/cv.pdf' },
 ];
 
 export const homepageSection = {
   AboutSection: true,
   NewsSection: true,
+  ExperienceSection: true,
   SelectedPublicationsSection: true,
-  // ProjectSection: true,
 };
 
-export const fontStyle = 'mono'; // "sans" | "serif" | "mono"
+export const fontStyle = 'mono'; // "sans" | "serif" | "mono" | "lato"
