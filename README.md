@@ -2,8 +2,6 @@
 
 This project is an academic homepage template built with Next.js, Tailwind CSS, and ShadcnUI. The design is minimalistic and modern, providing a clean and professional look for academic portfolios. It supports deployment to Zeabur and can directly parse `.bib` files to display publications.
 
-![screemshot](public/screenshot.jpg)
-
 ## Features
 
 - **Minimalistic Design**: Clean and modern interface to showcase academic work.
