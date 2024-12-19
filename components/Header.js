@@ -82,7 +82,7 @@ export default function Header() {
             variant="ghost"
             size="icon"
             onClick={() =>
-              theme === 'light' 
+              theme === 'light' ? setTheme('dark') : setTheme('light')
             }
           >
             {theme === 'light' ? (

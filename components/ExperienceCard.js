@@ -30,7 +30,7 @@ export default function ExperienceCard({
       </div>
       <div className="flex flex-col gap-3 md:w-3/4">
         <p className="text-xl font-semibold" >
-          <span className="" style={{ color: 'rgb(75, 0, 130)' }}> {institution} </span>
+          <span className="" style={{ color: 'rgb(51, 161, 201)' }}> {institution} </span>
           <br />
           <span className="p">{date}</span> 
           <br />
