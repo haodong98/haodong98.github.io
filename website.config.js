@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: 'Haodong Zheng',
   profilePicture: '/profile.jpg', //optional
-  role: '^',
-  university: ' ^',
+  role: 'PhD',
+  university: 'EPFL',
   socialMedia: [
     { name: 'Email', url: 'zhdwizard@gmail.com' },
     { name: 'Twitter', url: 'https://x.com/zhd000' },
@@ -20,17 +20,15 @@ export const websiteInfo = {
 };
 
 export const navigations = [
-  // { name: 'Projects', route: '/projects' },
-  // { name: 'Publications', route: '/publications' },
-  // { name: 'Life', route: '/life' },
-  // { name: 'CV', route: '/cv.pdf' },
+  { name: 'Blogs', route: '/projects' }
+  // { name: 'CV', route: '/cv.pdf' }
 ];
 
 export const homepageSection = {
   AboutSection: true,
-  NewsSection: true,
+  NewsSection: false,
   ExperienceSection: true,
-  SelectedPublicationsSection: true,
+  SelectedPublicationsSection: false,
 };
 
 export const fontStyle = 'mono'; // "sans" | "serif" | "mono" | "lato"

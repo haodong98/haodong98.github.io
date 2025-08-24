@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from 'next/dynamic';
 
-import SUSTech from '@/data/experiences/sustech.mdx';
+import EPFL from '@/data/experiences/epfl.mdx';
 import UwMd from '@/data/experiences/uw.mdx';
 
 
@@ -17,8 +17,8 @@ export default function ExperienceCard({
 }) {
 
   let MdFunc = () => <p>{"not found mdx code=113"}</p>;
-  if (slug === 'sustech') {
-    MdFunc = SUSTech;
+  if (slug === 'epfl') {
+    MdFunc = EPFL;
   } else if (slug === 'uw') {
     MdFunc = UwMd;
   }
