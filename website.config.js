@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: 'Haodong Zheng',
-  profilePicture: '/profile.jpg', //optional
+  profilePicture: '/profile1.jpg', //optional
   role: 'PhD',
   university: 'EPFL',
   socialMedia: [
