@@ -8,7 +8,7 @@ export const personalInfo = {
     { name: 'Twitter', url: 'https://x.com/zhd000' },
     {
       name: 'GitHub',
-      url: 'https://github.com/wizard0',
+      url: 'https://github.com/haodong98',
     }
   ],
 };
